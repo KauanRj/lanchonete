@@ -7,13 +7,6 @@ public class Pedido {
     private Cliente cliente;
     private Hamburguer hamburguer;
 
-
-
-
-
-
-
-
     public Pedido(Cliente cliente, Hamburguer hamburguer) {
         this.cliente = cliente;
         this.hamburguer = hamburguer;
@@ -36,7 +29,7 @@ public class Pedido {
     }
 
     public String getPedido() {
-        return cliente.getNomeInteiro() + " " + hamburguer.getLancheInteiro();
+        return cliente.getNomeInteiro() + " " + hamburguer.getIng();
 
 
 
