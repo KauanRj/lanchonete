@@ -17,7 +17,7 @@ public class Main {
 
 
         Cliente cliente= new Cliente("Kauan", "Rodrigues");
-        Hamburguer xhamburguer = new Hamburguer(ingreList);
+        Hamburguer xhamburguer = new Hamburguer(ingreList, 50);
 
         Pedido pedido1 = new Pedido(cliente, xhamburguer);
 
